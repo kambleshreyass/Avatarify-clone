@@ -1,0 +1,26 @@
+#nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 90px;
+
+
+
+  span svg{
+    width: 20px;
+  }
+   button{
+    padding: 10px 30px ;
+    border: 2px solid #ffdb25;
+    color: #ffdb25;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+
+    &:hover{
+      color: #a78f1c;
+      border: 2px solid #a78f1c;
+    }
+  }
+
+}
