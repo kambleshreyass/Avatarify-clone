@@ -1,4 +1,7 @@
 #nav{
+  height: 100px;
+  width: 100%;
+  background-color: black;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -10,16 +13,17 @@
     width: 20px;
   }
    button{
+    display: inline-block;
     padding: 10px 30px ;
     border: 2px solid #ffdb25;
-    color: #ffdb25;
+    background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);;
     font-size: 16px;
     border-radius: 10px;
     cursor: pointer;
+    color: white;
 
     &:hover{
-      color: #a78f1c;
-      border: 2px solid #a78f1c;
+      background: linear-gradient(45deg, #4f5bd5, #962fbf, #d62976, #fa7e1e, #feda75);
     }
   }
 
