@@ -1,0 +1,35 @@
+#home{
+  min-height: 90vh;
+  width: 100%;
+  background-color: black;
+
+  >img{
+    opacity: .3;
+    z-index: -1;
+    position: relative;
+  }
+
+  .background-image{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-image: url('https://static.tildacdn.com/tild3737-6137-4566-b362-643039666437/I_axis.svg'); 
+    background-size: cover;
+    background-position: center;
+    opacity: .4;
+  }
+  .left{
+    min-height: 40vh;
+    width: 50%;
+    background-color: green;
+    z-index: 9999;
+    position: absolute;
+    top: 30%;
+    
+  }
+  .right{
+    min-height: 40vh;
+    width: 50%;
+    background-color: red;
+  }
+}
