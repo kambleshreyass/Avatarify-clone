@@ -1,0 +1,58 @@
+#fourth{
+  min-height: 100vh;
+  width: 100%;
+  background-color: black;
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  } h1 {
+    font-size: 4vw;
+    padding: 0 70px;
+  }
+  .arrow{
+    width: 90px;
+  }
+  .divs-2{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 30px 50px;
+    gap: 20px;
+  }
+
+  .div-2{
+    height: 280px;
+    width: 400px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #383838;
+
+
+    .img2{
+      display: flex;
+      align-items: center;
+      justify-content:flex-start ;
+      margin-left: 25px;
+    }
+    img{
+      width: 90px;
+      margin-top: 10px;
+    }
+
+
+    h4{
+      padding: 10px 30px;
+      font-size: 20px;
+    }
+    p{
+      padding: 5px 30px;
+    }
+    span{
+
+        padding: 10px 30px;
+        color: rgb(138, 138, 138);
+        cursor: pointer;
+    }
+  }
+}
