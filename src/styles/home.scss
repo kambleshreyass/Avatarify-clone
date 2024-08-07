@@ -11,25 +11,58 @@
 
   .background-image{
     position: relative;
-    width: 100%;
+    min-height: 100vh;
     height: 600px;
     background-image: url('https://static.tildacdn.com/tild3737-6137-4566-b362-643039666437/I_axis.svg'); 
     background-size: cover;
     background-position: center;
     opacity: .4;
   }
+
+  .flex{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   .left{
     min-height: 40vh;
     width: 50%;
-    background-color: green;
+    // background-color: green;
     z-index: 9999;
     position: absolute;
     top: 30%;
+   
+    >h1{
+      font-size: 5vw;
+      padding: 0 70px;
+      line-height: 1;
+      color: white;
+
+      >span{
+        color: yellow;
+      }
+    }
+    >p {
+      padding: 10px 70px;
+      font-size: 19px;
+    }
     
   }
   .right{
-    min-height: 40vh;
-    width: 50%;
-    background-color: red;
+    min-height: 70vh;
+    width: 30%;
+    // background-color: green;
+    z-index: 9999;
+    position: absolute;
+    top: 15%;
+    right: 6%;
+    rotate: 15deg;
+    padding: 30px;
+
+    >img{
+      width: 80%;
+      box-shadow: 12px 12px 0 2px yellow;
+      border-radius: 20px;
+    }
   }
 }
