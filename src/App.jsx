@@ -1,6 +1,7 @@
 import Navigation from "../src/components/Navigation"
 import Home from "./components/Home"
 import SecondPage from "./components/SecondPage"
+import ThirdPage from "./components/ThirdPage"
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
     <Navigation/>
     <Home/>
     <SecondPage/>
+    <ThirdPage/>
     </>
   )
 }

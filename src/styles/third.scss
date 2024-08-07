@@ -1,0 +1,54 @@
+#third{
+  min-height: 100vh;
+  width: 100%;
+  background-color: black;
+  color: #FFFFFF;
+
+  > h1 {
+    font-size: 4vw;
+    padding: 0 70px;
+  }
+
+  .divs{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 30px 50px;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+
+  .div-1{
+    height: 280px;
+    width: 400px;
+    background-color: yellow;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background-color: #111111;
+    border: 1px solid #383838;
+
+
+    .img{
+      display: flex;
+      align-items: center;
+      justify-content: center ;
+    }
+    img{
+      width: 90px;
+    }
+
+
+    h4{
+      padding: 10px 30px;
+      font-size: 20px;
+    }
+    p{
+      padding: 5px 30px;
+    }
+    span{
+
+        padding: 10px 30px;
+        color: yellow;
+    }
+  }
+}
