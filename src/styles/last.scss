@@ -1,0 +1,89 @@
+#last{
+  min-height: 90vh;
+  width: 100%;
+  background-color: black;
+
+  > h1 {
+    font-size: 5vw;
+    font-weight: 500;
+    padding: 0 80px;
+  }
+
+  .flex-divs{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 0 70px;
+    justify-content: center;
+
+    > .div-one{
+      min-height: 30vh;
+      width: 570px;
+      background-color: #ffdc2a;
+      border-radius: 20px;
+      cursor: pointer;
+
+      &:hover{
+        background-color: #d4b82c;
+      }
+
+      >.flexx h2 {
+        padding: 0 40px;
+        padding-top: 20px ;
+        color: black;
+        font-weight: 600;
+        font-size: 3.3vw;
+      }
+      >p{
+        padding: 0 40px;
+        color: rgb(34, 34, 34);
+      }
+      
+    }
+    .two{
+      background-color: #cb5bff;
+      &:hover{
+        background-color: #883cac;  
+      }
+    }
+    .div-three{
+      min-height: 33vh;
+      width: 800px;
+      background-color: #ff7b43;
+      border-radius: 20px;
+      cursor: pointer;
+      &:hover{
+        background-color: #db6b3a;
+      }
+
+       .flexx h2 {
+        padding: 0 40px;
+        padding-top: 20px ;
+        color: black;
+        font-weight: 600;
+        font-size: 3.3vw;
+      }
+      >p{
+        padding: 0 40px;
+        color: rgb(34, 34, 34);
+      }
+
+      > button {
+        margin: 0 40px;
+        padding: 20px 20px ;
+        background-color: black;
+        border: none;
+        color: white;
+        font-size: 18px;
+        margin-top: 20px;
+        border-radius: 20px;
+        cursor: pointer;
+        
+      }
+    }
+  }
+  .flexx{
+    display: flex;
+    flex-shrink:unset;
+  }
+}

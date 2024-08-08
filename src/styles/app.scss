@@ -10,12 +10,14 @@
 @import "second";
 @import "third";
 @import "fourth";
+@import "last";
 
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   color: white;
+  scroll-behavior: smooth;
 }
 
 body{
