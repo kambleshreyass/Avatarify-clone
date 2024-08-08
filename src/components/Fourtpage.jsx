@@ -6,8 +6,8 @@ const Fourtpage = () => {
     <div id="fourth">
     <div className="flex">
     <h1>Reviews</h1>
-    <img className="arrow" src={arrow} alt="right arrow" />
-    <img src={"https://static.tildacdn.com/tild3837-6361-4237-b631-663236353432/Group_15.svg"} alt="" />
+    {/* <img className="arrow" src={arrow} alt="right arrow" /> */}
+    {/* <img src={"https://static.tildacdn.com/tild3837-6361-4237-b631-663236353432/Group_15.svg"} alt="" /> */}
     </div>
       
       <div className="divs-2">

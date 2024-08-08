@@ -6,7 +6,7 @@
   > h1 {
     font-size: 5vw;
     font-weight: 500;
-    padding: 0 80px;
+    padding: 20px 80px;
   }
 
   .flex-divs{
@@ -52,6 +52,7 @@
       background-color: #ff7b43;
       border-radius: 20px;
       cursor: pointer;
+      margin-bottom: 30px;
       &:hover{
         background-color: #db6b3a;
       }
@@ -81,9 +82,5 @@
         
       }
     }
-  }
-  .flexx{
-    display: flex;
-    flex-shrink:unset;
   }
 }

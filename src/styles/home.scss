@@ -9,62 +9,49 @@
     position: relative;
   }
 
-  .background-image{
-    position: relative;
-    min-height: 100vh;
-    height: 600px;
-    background-image: url('https://static.tildacdn.com/tild3737-6137-4566-b362-643039666437/I_axis.svg'); 
-    background-size: cover;
-    background-position: center;
-    opacity: .4;
-  }
-
-  .flex{
-    display: flex;
-    flex-wrap: wrap;
-  }
-
   .left{
     min-height: 40vh;
-    width: 50%;
+    width: 100%;
     // background-color: green;
     z-index: 9999;
     position: absolute;
     top: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
    
     >h1{
       font-size: 5vw;
       padding: 0 70px;
       line-height: 1;
       color: white;
+      top: 20%;
+      position: absolute;
+      left: 0;
+
+      >p{
+        font-size: 19px;
+        font-weight: 300;
+        padding-top: 20px;
+      }
 
       >span{
         color: yellow;
       }
     }
-    >p {
-      padding: 10px 70px;
-      font-size: 19px;
+
+    >img{
+      width: 20vw;
+      right: 20%;
+      position: absolute;
+      rotate: 15deg;
+      box-shadow: 20px 20px 0 0 yellow;
+      border-radius: 20px;
     }
     
   }
-  .right{
-    min-height: 70vh;
-    width: 30%;
-    // background-color: green;
-    z-index: 9999;
-    position: absolute;
-    top: 15%;
-    right: 6%;
-    rotate: 15deg;
-    padding: 30px;
 
-    >img{
-      width: 80%;
-      box-shadow: 12px 12px 0 2px yellow;
-      border-radius: 20px;
-      animation: animateSvg 0.7s infinite linear alternate;
-    }
   }
   .btn-flex{
     z-index: 9999;
@@ -86,4 +73,3 @@
       cursor: pointer;
     }
   }
-}

@@ -1,0 +1,96 @@
+@media (max-width:985px) {
+  #nav .btn button{
+    display: none;
+  }
+  #home .left img{
+    top: 40%;
+  }
+  #home .left h1{
+    top: 0;
+    color: rgb(255, 255, 255);
+    font-size: 7vw;
+  }
+  #third > h1{
+    padding-top: 30px;
+  }
+
+}
+
+@media (max-width:800px) {
+  #nav .btn button{
+    display: none;
+  }
+  #home .left h1{
+    top: 0;
+    color: rgb(255, 255, 255);
+    font-size: 8vw;
+  }
+  #home .left img{
+    top: 70%;
+    left: 40%;
+  }
+  #nav img{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+}
+
+@media (max-width:600px) {
+  #second >h1{
+    font-size: 7vw;
+  }
+  #second   span>img{
+    width: 30px;
+    animation: upDown 2s infinite ease-in-out;
+  }
+}
+
+@media (max-width:495px){
+  #home .left img{
+    top: 90%;
+  }
+  #second .img-container img{
+    width: 180px;
+  }
+}
+
+@media (max-width:375px){
+  #third .divs .div-1{
+    height: 370px;
+  }
+  #third > h1{
+    font-size: 26px;
+    text-align: center;
+  }
+  #fourth .flex>h1{
+    font-size: 26px;
+    
+  }
+  #last h1{
+    text-align: center;
+    font-size: 26px;
+  }
+  #last .div-three{
+    margin-bottom: 40px;
+  }
+}
+
+
+@media (max-width:420px){
+  #third .divs .div-1{
+    height: 380px;
+  }
+}
+
+@media (max-width:1024px) {
+  #second .img-container img{
+    width: 40vw;
+  }
+}
+
+@media (max-width:820px) {
+
+}
